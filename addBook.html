@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>BookWorm</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	<div class="form-structor">
+		<form action="addBookDB.php" method="POST">
+			<div class="signup">
+				<h2 class="form-title" id="signup"><span>or</span>Add Book</h2>
+				<div class="form-holder">
+					<input type="text" class="input" name="name" placeholder="Book Name" required />
+					<input type="text" class="input" name="authname" placeholder="Auther Name" required />
+					<input type="number" class="input" name="price" placeholder="Price" required />
+					<input type="number" class="input" name="qty" placeholder="Total Quantity" required />
+				</div>
+				<button class="submit-btn">Add Book</button>
+			</div>
+		</form>		
+	</div>
+	<script  src="./script.js"></script>
+
+</body>
+</html>
